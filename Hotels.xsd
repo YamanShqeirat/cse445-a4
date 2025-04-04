@@ -19,7 +19,6 @@
                     <xs:element name="Street" type="xs:string"/>
                     <xs:element name="City" type="xs:string"/>
                     <xs:element name="State" type="xs:string"/>
-                    <!-- change here from xs:string to xs:int -->
                     <xs:element name="Zip" type="xs:int"/> 
                   </xs:sequence>
                   <xs:attribute name="_NearestAirport" type="xs:string" use="required"/>

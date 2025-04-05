@@ -2,7 +2,7 @@
 <!-- 1) Wrong root element name: "Hotel" instead of "Hotels" -->
 <Hotel>
   <!-- 2) Missing _NearestAirport attribute in Address -->
-  <Hotel _Rating="4.2">
+  <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Address>
@@ -15,9 +15,9 @@
   </Hotel>
 
   <!-- 3) Missing <Phone> entirely -->
-  <Hotel _Rating="3.0">
+  <Hotel Rating="3.0">
     <Name>NoPhone Inn</Name>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>100</Number>
       <Street>Missing Phone St</Street>
       <City>Phoenix</City>
@@ -30,7 +30,7 @@
   <Hotel>
     <Name>Mesa Inn</Name>
     <Phone>480-123-4567</Phone>
-    <Address _NearestAirport="Mesa Gateway">
+    <Address NearstAirport="Mesa Gateway">
       <Number>202</Number>
       <Street>Country Club Dr</Street>
       <City>Mesa</City>
@@ -44,7 +44,7 @@
     <Name>DoubleName Inn</Name>
     <Name>Another Name</Name>
     <Phone>999-999-9999</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>300</Number>
       <Street>Duplicate Lane</Street>
       <City>Phoenix</City>

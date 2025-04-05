@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
   <!-- 1st Hotel (has _Rating) and two Phones -->
-  <Hotel _Rating="4.2">
+  <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E. 7th St</Street>
       <City>Tempe</City>
@@ -15,11 +15,11 @@
   </Hotel>
 
   <!-- 2nd Hotel (has _Rating, multiple Phones) -->
-  <Hotel _Rating="5.0">
+  <Hotel Rating="5.0">
     <Name>The Grand Hotel</Name>
     <Phone>602-111-2222</Phone>
     <Phone>844-987-6543</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>500</Number>
       <Street>Grand Ave</Street>
       <City>Phoenix</City>
@@ -32,7 +32,7 @@
   <Hotel>
     <Name>Mesa Inn</Name>
     <Phone>480-123-4567</Phone>
-    <Address _NearestAirport="Mesa Gateway">
+    <Address NearestAirport="Mesa Gateway">
       <Number>202</Number>
       <Street>Country Club Dr</Street>
       <City>Mesa</City>
@@ -45,7 +45,7 @@
   <Hotel>
     <Name>Desert Palm</Name>
     <Phone>623-555-9876</Phone>
-    <Address _NearestAirport="Phoenix Goodyear">
+    <Address NearestAirport="Phoenix Goodyear">
       <Number>700</Number>
       <Street>Palm Road</Street>
       <City>Goodyear</City>
@@ -55,10 +55,10 @@
   </Hotel>
 
   <!-- 5th Hotel (has _Rating, one Phone) -->
-  <Hotel _Rating="3.7">
+  <Hotel Rating="3.7">
     <Name>Scottsdale Resort</Name>
     <Phone>480-888-9999</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>1000</Number>
       <Street>Resort Way</Street>
       <City>Scottsdale</City>
@@ -71,7 +71,7 @@
   <Hotel>
     <Name>Flag Retreat</Name>
     <Phone>928-333-4444</Phone>
-    <Address _NearestAirport="Flagstaff Pulliam">
+    <Address NearestAirport="Flagstaff Pulliam">
       <Number>300</Number>
       <Street>Snow St</Street>
       <City>Flagstaff</City>
@@ -81,10 +81,10 @@
   </Hotel>
 
   <!-- 7th Hotel (has _Rating) -->
-  <Hotel _Rating="4.5">
+  <Hotel Rating="4.5">
     <Name>Historic Inn</Name>
     <Phone>928-555-7777</Phone>
-    <Address _NearestAirport="Flagstaff Pulliam">
+    <Address NearestAirport="Flagstaff Pulliam">
       <Number>350</Number>
       <Street>Route 66</Street>
       <City>Flagstaff</City>
@@ -97,7 +97,7 @@
   <Hotel>
     <Name>Downtown Suites</Name>
     <Phone>602-999-9999</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>Central Ave</Street>
       <City>Phoenix</City>
@@ -107,11 +107,11 @@
   </Hotel>
 
   <!-- 9th Hotel (has _Rating, multiple Phones) -->
-  <Hotel _Rating="3.2">
+  <Hotel Rating="3.2">
     <Name>Budget Motel</Name>
     <Phone>602-222-4444</Phone>
     <Phone>877-222-4444</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>125</Number>
       <Street>Discount Dr</Street>
       <City>Phoenix</City>
@@ -121,10 +121,10 @@
   </Hotel>
 
   <!-- 10th Hotel (has _Rating, single Phone) -->
-  <Hotel _Rating="4.0">
+  <Hotel Rating="4.0">
     <Name>ASU Lodge</Name>
     <Phone>480-555-5555</Phone>
-    <Address _NearestAirport="Sky Harbor">
+    <Address NearestAirport="Sky Harbor">
       <Number>123</Number>
       <Street>University Dr</Street>
       <City>Tempe</City>
